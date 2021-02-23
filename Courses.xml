@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Courses>
+    <Course>
+        <CourseName>Data Modelling</CourseName>
+        <CourseId>CS605</CourseId>
+        <CourseInstructor>
+            <Name>Prof. Chandrasekhar</Name>
+            <Office>R203</Office>
+            <Email>rc@iiitb.ac.in</Email>
+        </CourseInstructor>
+        <Classroom>204</Classroom>
+        <CourseCredits>4</CourseCredits>
+        <Prerequisite>None</Prerequisite>
+    </Course>
+</Courses>
