@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Professors>
+    <Professor>
+        <Designation>Professor</Designation>
+        <Name>
+            <FirstName>Chandrashekar</FirstName>
+            <MiddleName></MiddleName>
+            <LastName>Ramanathan</LastName>
+        </Name>
+        <Education>PhD from Mississippi State University</Education>
+        <profile>
+            <Experience>
+                Professor Chandrashekar Ramanathan is a faculty member at IIITB since 2007. His primary focus area is data science, software engineering and application development. Professor Chandrashekar received his Ph.D degree from Mississippi State University. His thesis was in the area of object-oriented databases. He has extensive application software development experience spanning over 10 years in large multinational organizations. His current focus is in the area of information convergence and software engineering. Technology for education, Application architectures, enterprise architecture and content management are his other areas of interest.
+            </Experience>
+            <ResearchArea>Data Science</ResearchArea>
+            <ResearchArea>Software Architecture</ResearchArea>
+            <ResearchArea>Software Engineering</ResearchArea>
+        </profile>
+        <OfficeAddress>
+            <Building>Aryabhatt Block</Building>
+            <Floor>2</Floor>
+            <Room>204</Room>
+        </OfficeAddress>
+        <Email>rc@iiitb.ac.in</Email>
+    </Professor>
+</Professors>

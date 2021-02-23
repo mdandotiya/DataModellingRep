@@ -3,13 +3,26 @@
     <Course>
         <CourseName>Data Modelling</CourseName>
         <CourseId>CS605</CourseId>
-        <CourseInstructor>
-            <Name>Prof. Chandrasekhar</Name>
-            <Office>R203</Office>
-            <Email>rc@iiitb.ac.in</Email>
-        </CourseInstructor>
+        <CourseInstructor>Prof. Chandrasekhar</CourseInstructor>
         <Classroom>204</Classroom>
         <CourseCredits>4</CourseCredits>
         <Prerequisite>None</Prerequisite>
+        <Schedule>
+            <Slot>
+                <Day>Tuesday</Day>
+                <StartTime>9:30 AM</StartTime>
+                <EndTime>11:30 AM</EndTime>
+            </Slot>
+            <Slot>
+                <Day>Thursday</Day>
+                <StartTime>9:30 AM</StartTime>
+                <EndTime>11:30 AM</EndTime>
+            </Slot>
+        </Schedule>
+        <CourseStrength>
+            <Min>20</Min>
+            <Max>150</Max>
+        </CourseStrength>
+        <CourseDuration>16 Weeks</CourseDuration>
     </Course>
 </Courses>
