@@ -1,0 +1,19 @@
+<!ELEMENT Courses (Course)>
+<!ELEMENT Course (CourseName,CourseId,CourseInstructor,Classroom,
+                  CourseCredits,Prerequisite,Schedule,CourseStrength,
+                  CourseDuration)>
+<!ELEMENT CourseName (#PCDATA)>
+<!ELEMENT CourseId (#PCDATA)>
+<!ELEMENT CourseInstructor (#PCDATA)>
+<!ELEMENT Classroom (#PCDATA)>
+<!ELEMENT CourseCredits (#PCDATA)>
+<!ELEMENT Prerequisite (#PCDATA)>
+<!ELEMENT Schedule (Slot)+>
+<!ELEMENT CourseStrength (Min,Max)>
+<!ELEMENT CourseDuration (#PCDATA)>
+<!ELEMENT Slot (Day,StartTime,EndTime)>
+<!ELEMENT Min (#PCDATA)>
+<!ELEMENT Max (#PCDATA)>
+<!ELEMENT Day (#PCDATA)>
+<!ELEMENT StartTime (#PCDATA)>
+<!ELEMENT EndTime (#PCDATA)>

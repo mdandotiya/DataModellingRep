@@ -1,0 +1,16 @@
+<!ELEMENT Professors (Professor)>
+<!ELEMENT Professor (Designation,Name,Education,profile,OfficeAddress,Email)>
+<!ELEMENT Designation (#PCDATA)>  
+<!ELEMENT Name (FirstName,MiddleName,LastName)>
+<!ELEMENT Education (#PCDATA)>  
+<!ELEMENT profile (Experience,ResearchArea+)> 
+<!ELEMENT OfficeAddress (Building,Floor,Room)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT MiddleName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT Experience (#PCDATA)>
+<!ELEMENT ResearchArea (#PCDATA)>
+<!ELEMENT Building (#PCDATA)>
+<!ELEMENT Floor (#PCDATA)>
+<!ELEMENT Room (#PCDATA)>
