@@ -1,0 +1,41 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.iiitb.ac.in"
+    xmlns="http://www.iiitb.ac.in"
+    elementFormDefault="qualified">
+  <xs:element name="Professors" type="ProfessorsType"/>
+  <xs:complexType name="NameType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="FirstName"/>
+      <xs:element type="xs:string" name="MiddleName"/>
+      <xs:element type="xs:string" name="LastName"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="profileType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Experience"/>
+      <xs:element type="xs:string" name="ResearchArea" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="OfficeAddressType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Building"/>
+      <xs:element type="xs:byte" name="Floor"/>
+      <xs:element type="xs:short" name="Room"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProfessorType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Designation"/>
+      <xs:element type="NameType" name="Name"/>
+      <xs:element type="xs:string" name="Education"/>
+      <xs:element type="profileType" name="profile"/>
+      <xs:element type="OfficeAddressType" name="OfficeAddress"/>
+      <xs:element type="xs:string" name="Email"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ProfessorsType">
+    <xs:sequence>
+      <xs:element type="ProfessorType" name="Professor"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
