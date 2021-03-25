@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <title>Admission Page</title>
+    <element>
+        <id>1</id>
+        <type>TEXT</type>
+        <name>First Name</name>
+        <value/>
+    </element>
+    <element>
+        <id>2</id>
+        <type>TEXT</type>
+        <name>Second Name</name>
+        <value/>
+    </element>
+    <element>
+        <id>3</id>
+        <type>TEXT</type>
+        <name>Gender</name>
+        <value/>
+    </element>
+    <element>
+        <id>4</id>
+        <type>TEXT</type>
+        <name>Age</name>
+        <value/>
+    </element>
+    <element>
+        <id>5</id>
+        <type>DATE</type>
+        <name>Date Of Birth</name>
+        <value/>
+    </element>
+    <element>
+        <id>6</id>
+        <type>TEXT</type>
+        <name>Email</name>
+        <value/>
+    </element>
+    <element>
+        <id>7</id>
+        <type>TEXT</type>
+        <name>Address</name>
+        <value/>
+    </element>
+    <element>
+        <id>8</id>
+        <type>TEXT</type>
+        <name>Degree</name>
+        <value/>
+    </element>
+    <element>
+        <id>9</id>
+        <type>IMAGE</type>
+        <name>Image</name>
+        <value/>
+    </element>
+    <element>
+        <id>10</id>
+        <type>TEXT</type>
+        <name>Father's Name</name>
+        <value/>
+    </element>
+    <element>
+        <id>12</id>
+        <type>URL</type>
+        <name>12th Marksheet</name>
+        <value/>
+    </element>
+    <element>
+        <id>13</id>
+        <type>URL</type>
+        <name>10th Marksheet</name>
+        <value/>
+    </element>
+</root>
